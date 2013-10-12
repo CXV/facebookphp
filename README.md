@@ -31,6 +31,7 @@ include_once $_SERVER['PHP_ROOT'].'/lib/monetization_box.php';
 $user = require_login();
 print_time('require_login');
 param_request(array('react' = > $PARAM_EXISTS));
+
  
 // Check and fix broken emails
 // LN - disabling due to excessive can_see dirties and sets when enabled.
